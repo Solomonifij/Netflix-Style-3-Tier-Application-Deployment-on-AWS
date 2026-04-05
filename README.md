@@ -73,7 +73,7 @@ All components are deployed on AWS EC2 instances within a configured VPC.
 
 Open browser and navigate to:
 
-<pre markdown="1">```bash http://<FRONTEND_PUBLIC_IP>:3000 ```</pre>
+<pre markdown="1">```http://<FRONTEND_PUBLIC_IP>:3000```</pre>
 
 ## **<u>Security Configuration</u>**
 
