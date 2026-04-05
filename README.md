@@ -66,12 +66,13 @@ All components are deployed on AWS EC2 instances within a configured VPC.
 - Updated API base URL to backend server
 - Built and served the application:
   
-```npm run build
-npx serve -s build -l 80```
+```npm run build```
+```npx serve -s build -l 80```
 
 ## 5. **Access Application**
 
 Open browser and navigate to:
+
 ```http://<FRONTEND_PUBLIC_IP>:3000```
 
 ## **<u>Security Configuration</u>**
