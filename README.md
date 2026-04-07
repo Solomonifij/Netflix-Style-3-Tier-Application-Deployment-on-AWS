@@ -51,7 +51,9 @@ All components are deployed on AWS EC2 instances within a configured VPC.
 - Cloned backend repository from GitHub
 - Configured MongoDB connection in application.properties:
   
-```spring.data.mongodb.uri=mongodb://<DB_PUBLIC_IP>:27017/netflix_db```
+``` bash
+spring.data.mongodb.uri=mongodb://<DB_PUBLIC_IP>:27017/netflix_db
+```
 
 - Built and ran the application
 - Tested API endpoints
@@ -61,7 +63,9 @@ All components are deployed on AWS EC2 instances within a configured VPC.
 - Cloned frontend repository
 - Installed dependencies:
   
-```npm install```
+```bash
+npm install
+````
 
 - Updated API base URL to backend server
 - Built and served the application:
@@ -75,7 +79,9 @@ npx serve -s build -l 80
 
 Open browser and navigate to:
 
-```http://<FRONTEND_PUBLIC_IP>:3000```
+```bash
+http://<FRONTEND_PUBLIC_IP>:3000
+```
 
 ## **<u>Security Configuration</u>**
 
