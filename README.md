@@ -66,8 +66,10 @@ All components are deployed on AWS EC2 instances within a configured VPC.
 - Updated API base URL to backend server
 - Built and served the application:
   
-```npm run build```
-```npx serve -s build -l 80```
+```bash
+npm run build
+npx serve -s build -l 80
+```
 
 ## 5. **Access Application**
 
